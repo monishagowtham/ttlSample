@@ -10,7 +10,8 @@
 
 
 _:Lecturer1 rdf:type univ:Professor;
-                foaf:name "Neli Zlatareva";
+                foaf:firstName "Neli";
+                foaf:lastName "Zlatareva";
                 vcard:title "Dr";
                 univ:e-mail "zlatareva@ccsu.edu";
                 foaf:phone "860-832-2723";
@@ -26,7 +27,8 @@ univ:CS575 rdf:type dc:subject;
            dc:title "Linked Data Engineering".
 
 _:Lecturer2 rdf:type univ:Professor;
-		foaf:name "Bradley Kjell";
+		foaf:firstName "Bradley";
+                foaf:lastName "Kjell";
                 univ:title "Mr";
                 univ:e-mail "Kjell@ccsu.edu";
                 foaf:phone "860-832-2717";
@@ -39,7 +41,8 @@ univ:CS254 rdf:type dc:subject;
            dc:title "Assembly Language".
 
 _:Lecturer3 rdf:type univ:Professor;
-		foaf:name "Sixia Chen";
+		foaf:firstName "Sixia";
+                foaf:lastName "Chen";
                 univ:title "Ms";
                 univ:e-mail "schen@ccsu.edu";
                 foaf:phone "860-832-2723";
@@ -52,7 +55,8 @@ univ:CS508 rdf:type dc:subject;
            dc:title "Distributed Computing".
 
 _:Lecturer4 rdf:type univ:Professor;
-		foaf:name "Chad Williams";
+		foaf:firstName "Chad";
+                foaf:lastName "Williams";
                 univ:title "Mr";
                 univ:e-mail "cwilliams@ccsu.edu";
                 foaf:phone "860-832-2719";
@@ -63,7 +67,8 @@ univ:CS492 rdf:type dc:subject;
            dc:title "Computer Security".
 
 _:Lecturer5 rdf:type univ:Professor;
-		foaf:name "Stanislav Kurkovsky";
+		foaf:firstName "Stanislav";
+                foaf:lastName "Kurkovsky";
                 univ:title "Mr";
                 univ:e-mail "kurkovsky@ccsu.edu";
                 foaf:phone "860-832-2720";
@@ -78,7 +83,8 @@ univ:CS498 rdf:type dc:subject;
            dc:title "Senior Project".
 
 _:Lecturer6 rdf:type univ:Professor;
-		foaf:name "Yusuf Albayram";
+		foaf:firstName "Yusuf";
+                foaf:lastName "Albayram";
                 univ:title "Mr";
                 univ:e-mail "yusuf.albayram@ccsu.edu";
                 foaf:phone "860-832-2715";
@@ -91,7 +97,8 @@ univ:CS506 rdf:type dc:subject;
            dc:title "Software Testing & Quality Assurance".
 
 _:Lecturer7 rdf:type univ:Professor;
-		foaf:name "Fatemeh Abdollahzadeh";
+		foaf:firstName "Fatemeh";
+                foaf:lastName "Abdollahzadeh";
                 univ:title "Mrs";
                 univ:e-mail "Abdollah@ccsu.edu";
                 foaf:phone "860-832-2714";
@@ -106,7 +113,8 @@ univ:CS481 rdf:type dc:subject;
            dc:title "Operating Systems Design".
 
 _:Lecturer8 rdf:type univ:Professor;
-		foaf:name "Irena Pevac";
+		foaf:firstName "Irena";
+                foaf:lastName "Pevac";
                 univ:title "Mrs";
                 univ:e-mail "Pevac@ccsu.edu";
                 foaf:phone "860-832-2721";
