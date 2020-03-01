@@ -1,6 +1,10 @@
-@prefix foaf:<http://xmlns.com/foaf/0.1/>.
-@prefix rdf:<http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
-@prefix univ:<http://www.cs.ccsu.edu/~neli/university.owl#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix univ: <http://www.cs.ccsu.edu/~neli/university.owl#> .
 @prefix dc: <http://purl.org/dc/elements/1.1/>.
 @prefix vcard: <http://www.w3.org/vcard/ns#>.
 
