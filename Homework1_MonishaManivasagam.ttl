@@ -1,0 +1,183 @@
+@prefix foaf:<http://xmlns.com/foaf/0.1/>.
+@prefix rdf:<http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix univ:<http://www.cs.ccsu.edu/~neli/university.owl#>.
+@prefix dc: <http://purl.org/dc/elements/1.1/>.
+@prefix vcard: <http://www.w3.org/vcard/ns#>.
+
+
+_:Lecturer1 rdf:type univ:Professor;
+                foaf:name "Neli Zlatareva";
+                vcard:title "Dr";
+                univ:e-mail "zlatareva@ccsu.edu";
+                foaf:phone "860-832-2723";
+                foaf:knows _:Lecturer2,_:Lecturer3,_:Lecturer4;
+		univ:teaches "CS253",
+                             "CS570",
+                             "CS575".
+univ:CS253 rdf:type dc:subject;
+           dc:title "File and Data Structures".
+univ:CS570 rdf:type dc:subject;
+           dc:title "Artificial Intelligence".
+univ:CS575 rdf:type dc:subject;
+           dc:title "Linked Data Engineering".
+
+_:Lecturer2 rdf:type univ:Professor;
+		foaf:name "Bradley Kjell";
+                univ:title "Mr";
+                univ:e-mail "Kjell@ccsu.edu";
+                foaf:phone "860-832-2717";
+                foaf:knows _:Lecturer3;
+                univ:teaches "CS153",
+                             "CS254".
+univ:CS153 rdf:type dc:subject;
+           dc:title "Computer Science 3".
+univ:CS254 rdf:type dc:subject;
+           dc:title "Assembly Language".
+
+_:Lecturer3 rdf:type univ:Professor;
+		foaf:name "Sixia Chen";
+                univ:title "Ms";
+                univ:e-mail "schen@ccsu.edu";
+                foaf:phone "860-832-2723";
+                foaf:knows _:Lecturer1,_:Lecturer2;
+		univ:teaches "CS463",
+                             "CS508".
+univ:CS463 rdf:type dc:subject;
+           dc:title "Algorithms".
+univ:CS508 rdf:type dc:subject;
+           dc:title "Distributed Computing".
+
+_:Lecturer4 rdf:type univ:Professor;
+		foaf:name "Chad Williams";
+                univ:title "Mr";
+                univ:e-mail "cwilliams@ccsu.edu";
+                foaf:phone "860-832-2719";
+                foaf:knows _:Lecturer1,_:Lecturer4;
+		univ:teaches "CS492".
+                            
+univ:CS492 rdf:type dc:subject;
+           dc:title "Computer Security".
+
+_:Lecturer5 rdf:type univ:Professor;
+		foaf:name "Stanislav Kurkovsky";
+                univ:title "Mr";
+                univ:e-mail "kurkovsky@ccsu.edu";
+                foaf:phone "860-832-2720";
+                foaf:knows _:Lecturer1,_:Lecturer4;
+		univ:teaches "CS355", "CS407","CS498".
+                            
+univ:CS355 rdf:type dc:subject;
+           dc:title "Systems Programming".
+univ:CS407 rdf:type dc:subject;
+           dc:title "Agile Software Projects".
+univ:CS498 rdf:type dc:subject;
+           dc:title "Senior Project".
+
+_:Lecturer6 rdf:type univ:Professor;
+		foaf:name "Yusuf Albayram";
+                univ:title "Mr";
+                univ:e-mail "yusuf.albayram@ccsu.edu";
+                foaf:phone "860-832-2715";
+                foaf:knows _:Lecturer1,_:Lecturer3,_:Lecturer5;
+		univ:teaches "CS407", "CS506".
+                            
+univ:CS407 rdf:type dc:subject;
+           dc:title "Mobile App Develpmnt".
+univ:CS506 rdf:type dc:subject;
+           dc:title "Software Testing & Quality Assurance".
+
+_:Lecturer7 rdf:type univ:Professor;
+		foaf:name "Fatemeh Abdollahzadeh";
+                univ:title "Mrs";
+                univ:e-mail "Abdollah@ccsu.edu";
+                foaf:phone "860-832-2714";
+                foaf:knows _:Lecturer1,_:Lecturer4,_:Lecturer6;
+		univ:teaches "CS152", "CS253","CS481".
+                            
+univ:CS152 rdf:type dc:subject;                           
+           dc:title "Computer Science II".
+univ:CS253 rdf:type dc:subject;
+           dc:title "Data and File Structures".
+univ:CS481 rdf:type dc:subject;
+           dc:title "Operating Systems Design".
+
+_:Lecturer8 rdf:type univ:Professor;
+		foaf:name "Irena Pevac";
+                univ:title "Mrs";
+                univ:e-mail "Pevac@ccsu.edu";
+                foaf:phone "860-832-2721";
+                foaf:knows _:Lecturer1,_:Lecturer3,_:Lecturer4;
+		univ:teaches "CS151", "CS152".
+                            
+univ:CS151 rdf:type dc:subject;
+           dc:title "Computer Science I".
+
+univ:Student1 rdf:type univ:Student;
+               univ:firstName "Monisha";
+               univ:lastName "Manivasagam";
+               univ:studies "CS575", 
+                            "CS508", 
+                            "CS254".
+
+univ:Student2 rdf:type univ:Student;
+               foaf:name  "Mrinalini";
+               univ:studies  "CS575", 
+                             "CS508",
+                             "CS506".
+
+univ:Student3 rdf:type univ:Student;
+               foaf:name "Parvathy";
+               univ:studies "CS575", 
+                            "CS254",
+                            "CS570".
+
+univ:Student4 rdf:type univ:Student;
+	       foaf:name "Priyanka"; 
+	       univ:studies "CS575", 
+                            "CS254",
+                            "CS492".
+
+univ:Student5 rdf:type univ:Student;
+	       foaf:name "Shravya";
+	       univ:studies "CS575",
+                            "CS508",
+                            "CS492",
+                            "CS506".
+
+univ:Student6 rdf:type univ:Student;
+	       foaf:name "John";
+	       univ:studies "CS570", 
+                            "CS153",
+                            "CS463",
+                            "CS498",
+                            "CS355".
+
+univ:Student7 rdf:type univ:Student;
+	       foaf:name "Paige";
+	     univ:studies "CS570", 
+                          "CS151",
+                          "CS481",
+                          "CS498".
+
+univ:Student8 rdf:type univ:Student;
+	       foaf:name "Madhuravani";
+	       univ:studies "CS153", 
+                            "CS575",
+                            "CS254",
+                            "CS506".
+
+univ:Student9 rdf:type univ:Student;
+	       foaf:name "Sushma";
+               univ:studies "CS407", 
+                            "CS575",
+                            "CS254",
+                            "CS463".
+
+univ:Student10 rdf:type univ:Student;
+	       foaf:name "Danny";
+	       univ:studies "CS498", 
+                            "CS407",
+                            "CS151",
+                            "CS153".		      	
+
+		   	
